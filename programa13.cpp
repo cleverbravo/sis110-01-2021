@@ -25,18 +25,7 @@ int main()
             cout<<a*b;
             break;
         case '/':
-            if(b==0)
-            {
-                if(a==0)
-                    cout<<"Indeterminado.";
-                else
-                    cout<<"Infinito.";
-            }
-            else
-            {
-                cout<<a/b;
-            }
-
+            cout<<a/b;
             break;
     }
     return 0;
